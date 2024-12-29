@@ -22,3 +22,13 @@ After the installation process is complete, you can use the program by calling
 ```
 csval [file_path] [FLAGS]
 ```
+# Examples
+An example of how this program can be used is checking the sums of the LICENSE file in the project directory
+```
+csval LICENSE --sha256 3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986 --md5 1ebbd3e34237af26da5dc08a4e440464
+```
+and the expected output is
+```
+Md5 sums: Match.
+SHA256 sums: Match.
+```
