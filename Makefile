@@ -16,4 +16,4 @@ clean:
 
 uninstall:
 	@echo "Deleting $(INSTALL-LOCATION)/$(EXEC-NAME)"
-	@rm "$(INSTALL-LOCATION)/$(EXEC-NAME)"
+	@sudo rm "$(INSTALL-LOCATION)/$(EXEC-NAME)"
